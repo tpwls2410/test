@@ -1,26 +1,24 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<meta charset="utf-8">
-	<title> Reol Fan page</title>
+	<title></title>
+
 	<style type="text/css">
-
-	*{
-
-	}
+		
 	body {
 		background-color: black;
 		color: white;
 	}
-		header{
+
+	li {
+		list-style-type: none;
+	}
+
+	header{
 			width: 995px;
 			height: 190px;
 			margin-top: 30px;
 			border-bottom: solid 1px red;
-		}
-
-		.clear {
-			clear: both;
 		}
 
 		#logo{
@@ -30,7 +28,7 @@
 			color: white
 		}
 
-		#top {
+			#top {
 			float: right;
 			margin: 20px 20px 0 0;
 		}
@@ -46,29 +44,54 @@
 			margin: 30px 20px;
 		}
 
-		li {
-			list-style-type: none;
+			#page{
+			width: 995px;
+			margin: auto;
+			//border:solid 1px red;
 		}
 
 		section {
-			float: left;
-			margin-top: 10px;
+			margin: auto;
+			float: center;
 		}
 
-		aside {
-			float: left;
-			margin-left: 20px;
-			margin-top: 10px;
+		#first {
+			width: 900px;
+			height: 300px;
+			margin: auto;
+			
+			margin-top: 80px;
+			
 		}
 
-		aside li {
-			margin-bottom: 70px;
+		#first img {
+			position: absolute;
+			padding: 40px;
+		}
+
+		p {
+			text-align: center;
+			font-family: "adobe Heiti std";
+			font-size: 24pt;
+		}
+
+		#second {
+			text-align: center;
+			width: 900px;
+			height: 300px;
+			margin: auto;
+			
+			margin-top: 220px;
+			
 		}
 
 		footer{
 			width: 995px;
 			border-top: solid 1px red;
-			margin-top: 20px;
+			margin-top: 700px;
+			padding: auto;
+			float: unset;
+
 		}
 
 		#address{
@@ -82,32 +105,13 @@
 			margin: 30px 0 0 180px;
 		}
 
-		#page{
-			width: 995px;
-			margin: auto;
-			//border:solid 1px red;
-		}
-
-		#concert {
-			background-color: white; 
-			margin: auto; 
-			text-align: center; 
-			height: 850px; 
-			width: 600px; 
-			border:1px solid
-
-		}
-
-
-		
-		
-
 
 	</style>
 </head>
 <body>
 	<div id="page">
-<header>
+
+	<header>
 	<div id="logo">
 
 		<a href="./index.html"><img src="./img/logo.png"></a>
@@ -123,25 +127,28 @@
 		<li><a href="./discography.html" target="blank"><img src="./img/title_en_disco.png" width="180px" height="auto"></a></li>
 		<li><a href="./Rschedule.html" target="blank"><img src="./img/title_en_live.png" width="75px" height="32.891"></a></li>
 		<li><a href="./news.html" target="blank"><img src="./img/title_en_news.png" width="80px" height="32.891"></a></li>
-		<li><a href="./media.html" target="blank"><img src="./img/title_en_media.png" width="100px" height="32.891"></a></li>
+		<li><a href="./media.html" target="balnk"><img src="./img/title_en_media.png" width="100px" height="32.891"></a></li>
 		<li><a href="https://twitter.com/lemone_ee" target="blank"><img src="./img/title_en_contact.png" width="100px" height="32.891"></a></li>
 		<li><img src="./img/title_en_prof.png" width="100px" height="32.891"></li>
 	</ul>
 </nav>
 
-<div class="clear"></div>
 <section>
-	
-	<img src="./img/made in faction.jpg" width="550">
-</section>
-<aside>
-	<ul>
-		<li><a href="./Rschedule.html"><img src="./img/detail_en.jpg" width="140"></a></li>
-		<li><a href="./news.html"><img src="./img/more_en.jpg" width="140"></a></li>
-	</ul>
-</aside>
+<div id="first">
+	<p> 事実上</p>
+	<img src="./img/main_01_V2.png" width="800px" height="auto">
+	<img src="./img/main_02_V2.png" width="800px">
+	<img src="./img/main_03_V2.png" width="800px">
+</div>
 
-<div class="clear"></div>
+<div id="second">
+	<p>SAIREN</p>
+	<img src="./img/Sairen.jpg" width="800px">
+</div>
+	
+</section>
+
+
 
 <footer>
 	<div id="address">
